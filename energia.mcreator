@@ -1,0 +1,1070 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "UsineboisMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usinebois_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usinebois",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usinebois"
+    },
+    {
+      "name": "Inventaireusinebois",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventaireusinebois"
+    },
+    {
+      "name": "Inventaireguiprocedure",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventaireguiprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolarpanelMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solarpanel_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Solarpanel",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solarpanel"
+    },
+    {
+      "name": "Petrole",
+      "type": "fluid",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrole"
+    },
+    {
+      "name": "GenerateurxpMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generateurxp_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Generateurxp",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generateurxp"
+    },
+    {
+      "name": "BatterieMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batterie_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batterie",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batterie"
+    },
+    {
+      "name": "Energia",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energia"
+    },
+    {
+      "name": "Reacteurpetrole",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reacteurpetrole"
+    },
+    {
+      "name": "Reacteurpetroletick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reacteurpetroletick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mesureurenergie",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mesureurenergie"
+    },
+    {
+      "name": "Mesureurenergieupdatetick",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mesureurenergieupdatetick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BasewireMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basewire_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xpitem",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpitem"
+    },
+    {
+      "name": "XpitemLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpitem_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Inventairegenxp",
+      "type": "gui",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inventairegenxp"
+    },
+    {
+      "name": "XpitemLorsDunClickDroitDansLair",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xpitem_lors_dun_click_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisbirchgui",
+      "type": "gui",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisbirchgui"
+    },
+    {
+      "name": "UsineboisbirchMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisbirch_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisbirch",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisbirch"
+    },
+    {
+      "name": "Seedbirchsapling",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedbirchsapling"
+    },
+    {
+      "name": "Seedoaksapling",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedoaksapling"
+    },
+    {
+      "name": "Usineboisoak",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisoak"
+    },
+    {
+      "name": "UsineboisoakLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisoak_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seeddarkoaksapling",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seeddarkoaksapling"
+    },
+    {
+      "name": "Usineboisdarkoak",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisdarkoak"
+    },
+    {
+      "name": "Usineboisguioak",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisguioak"
+    },
+    {
+      "name": "UsineboisoakMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisoak_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisguidarkoak",
+      "type": "gui",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisguidarkoak"
+    },
+    {
+      "name": "UsineboisdarkoakMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisdarkoak_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisguiacacia",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisguiacacia"
+    },
+    {
+      "name": "UsineboisacaciaMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisacacia_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisacacia",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisacacia"
+    },
+    {
+      "name": "Seedacaciasaplings",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedacaciasaplings"
+    },
+    {
+      "name": "Usineboisguijungle",
+      "type": "gui",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisguijungle"
+    },
+    {
+      "name": "UsineboisjungleMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisjungle_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisjungle",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisjungle"
+    },
+    {
+      "name": "Seedjunglesaplings",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedjunglesaplings"
+    },
+    {
+      "name": "Seedoaksaplingrecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedoaksaplingrecipe"
+    },
+    {
+      "name": "Seedjunglesaplingrecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedjunglesaplingrecipe"
+    },
+    {
+      "name": "Seedacaciasapling",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedacaciasapling"
+    },
+    {
+      "name": "Seeddarkoaksaplingrecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seeddarkoaksaplingrecipe"
+    },
+    {
+      "name": "Seedbirchsaplingrecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedbirchsaplingrecipe"
+    },
+    {
+      "name": "SeedacaciasaplingsLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedacaciasaplings_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeedbirchsaplingLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedbirchsapling_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeedoaksaplingLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedoaksapling_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeeddarkoaksaplingLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seeddarkoaksapling_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SeedjunglesaplingsLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedjunglesaplings_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Guiusinespruce",
+      "type": "gui",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guiusinespruce"
+    },
+    {
+      "name": "UsineboisspruceMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisspruce_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usineboisspruce",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "usineboisspruce"
+    },
+    {
+      "name": "SeedsaplingsspruceLorsDunClickDroitSurUnBloc",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedsaplingsspruce_lors_dun_click_droit_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seedsaplingsspruce",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedsaplingsspruce"
+    },
+    {
+      "name": "Seedsprucerecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "seedsprucerecipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.usina.basewirecon_4upanddown": "Base wire",
+      "block.usina.basewirecon_3up": "Base wire",
+      "block.connecting_wires.basewirecon_4upanddown": "Base wire",
+      "itemGroup.tabenergia": "Energia",
+      "block.usina.basewirecon_5up": "Base wire",
+      "block.connecting_wires.basewire": "Base wire",
+      "block.usina.basewirecon_3upangle": "Base wire",
+      "block.energia.usineboisoak": "Usine oak",
+      "block.usina.usinebois": "Usinebois",
+      "item.energia.seedjunglesaplings": "Seed jungle",
+      "block.usina.basewirecon_5down": "Base wire",
+      "block.connecting_wires.basewirecon_2angleup": "Base wire",
+      "block.usina.basewirecon_3downangle": "Base wire",
+      "item.energia.seeddarkoaksapling": "Seed dark oak",
+      "block.energia.generateurxp": "Generateurxp",
+      "block.connecting_wires.basewirecon_2angledown": "Base wire",
+      "block.connecting_wires.basewirecon_3upangle": "Base wire",
+      "block.connecting_wires.basewirecon_4upanddownstraight": "Base wire",
+      "block.connecting_wires.basewirecon_5up": "Base wire",
+      "block.usina.basewirecon_4down": "Base wire",
+      "item.energia.seedbirchsapling": "Seed birch sapling",
+      "block.usina.generateurxp": "Generateurxp",
+      "block.connecting_wires.basewirecon_3up": "Base wire",
+      "block.energia.usineboisacacia": "Usineboisacacia",
+      "block.usina.basewirecon_2angle": "Base wire",
+      "block.usina.basewirecon_6": "Base wire",
+      "block.usina.basewirecon_4": "Base wire",
+      "block.usina.basewirecon_3": "Base wire",
+      "block.usina.basewirecon_2": "Base wire",
+      "block.usina.basewirecon_1": "Base wire",
+      "item.energia.petrole_bucket": "Petrole Bucket",
+      "block.usina.basewirecon_3down": "Base wire",
+      "block.usina.basewirecon_4up": "Base wire",
+      "item.energia.seedsaplingsspruce": "Seed spruce",
+      "block.connecting_wires.basewirecon_2angle": "Base wire",
+      "block.connecting_wires.basewirecon_3down": "Base wire",
+      "block.connecting_wires.basewirecon_6": "Base wire",
+      "block.connecting_wires.basewirecon_5main": "Base wire",
+      "item.usina.mesureenergie": "Mesureenergie",
+      "block.connecting_wires.basewirecon_2": "Base wire",
+      "block.connecting_wires.basewirecon_1": "Base wire",
+      "block.usina.basewirecon_2angleup": "Base wire",
+      "block.connecting_wires.basewirecon_4": "Base wire",
+      "block.connecting_wires.basewirecon_3": "Base wire",
+      "item.usina.petrole_bucket": "Petrole Bucket",
+      "block.energia.usinebois": "Usinebois",
+      "block.energia.solarpanel": "Solarpanel",
+      "block.connecting_wires.basewirecon_3downandup": "Base wire",
+      "fluid.petrole": "Petrole",
+      "block.usina.basewirecon_4upanddownstraight": "Base wire",
+      "block.energia.reacteurpetrole": "réacteur a petrole",
+      "block.energia.usineboisbirch": "Usineboisbirch",
+      "block.usina.basewire": "Base wire",
+      "item.energia.mesureurenergie": "mesureur energie",
+      "item.energia.xpitem": "Xp",
+      "block.usina.solarpanel": "Solarpanel",
+      "block.usina.batterie": "Batterie",
+      "item.energia.seedoaksapling": "Seed oak",
+      "block.connecting_wires.basewirecon_5down": "Base wire",
+      "block.usina.basewirecon_5main": "Base wire",
+      "block.connecting_wires.basewirecon_4up": "Base wire",
+      "block.usina.generateur": "foreuse a petrole",
+      "block.usina.basewirecon_2angledown": "Base wire",
+      "block.energia.usineboisspruce": "Usine spruce",
+      "block.connecting_wires.basewirecon_4down": "Base wire",
+      "block.energia.usineboisjungle": "Usine jungle",
+      "block.energia.usineboisdarkoak": "Usine dark oak",
+      "block.connecting_wires.basewirecon_3downangle": "Base wire",
+      "item.energia.seedacaciasaplings": "Seed acacia",
+      "block.usina.basewirecon_3downandup": "Base wire",
+      "block.energia.batterie": "Batterie"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "energia",
+    "modName": "energia",
+    "version": "0.0.1",
+    "author": "jokay03J",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.jokay.energia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

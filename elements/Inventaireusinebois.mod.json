@@ -1,0 +1,42 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 200,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "seed saplings",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "seed saplings",
+          "x": 177,
+          "y": 57
+        }
+      }
+    ]
+  }
+}

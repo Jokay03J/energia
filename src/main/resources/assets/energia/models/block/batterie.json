@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "energia:blocks/battery_other",
+    "up": "energia:blocks/battery_top",
+    "north": "energia:blocks/battery_other",
+    "east": "energia:blocks/battery_other",
+    "south": "energia:blocks/battery_other",
+    "west": "energia:blocks/battery_other",
+    "particle": "energia:blocks/battery_other"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "energia:blocks/reacteur_petrole_down",
+    "up": "energia:blocks/reacteur_petrole_top",
+    "north": "energia:blocks/reacteur_petrole_other",
+    "east": "energia:blocks/reacteur_petrole_other",
+    "south": "energia:blocks/reacteur_petrole_other",
+    "west": "energia:blocks/reacteur_petrole_other",
+    "particle": "energia:blocks/reacteur_petrole_down"
+  }
+}

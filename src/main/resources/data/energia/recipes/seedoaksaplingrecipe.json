@@ -1,0 +1,30 @@
+{
+  "group": "energia",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "3": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "4": {
+      "item": "minecraft:oak_sapling"
+    },
+    "5": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "7": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "energia:seedoaksapling",
+    "count": 1
+  }
+}

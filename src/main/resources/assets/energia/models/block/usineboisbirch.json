@@ -1,0 +1,11 @@
+{
+  "parent": "energia:custom/usine_bois",
+  "textures": {
+    "all": "energia:blocks/usine_bois_screenshot_birch",
+    "particle": "energia:blocks/usine_bois_screenshot_birch",
+    "0": "energia:blocks/couleur_pot",
+    "1": "energia:blocks/couleur_terre",
+    "2": "energia:blocks/oak_log",
+    "3": "energia:blocks/dark_oak_leaves"
+  }
+}

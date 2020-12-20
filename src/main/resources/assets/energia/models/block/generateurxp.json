@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "energia:blocks/generateur_xp",
+    "up": "energia:blocks/generateur_xp",
+    "north": "energia:blocks/generateur_xp",
+    "east": "energia:blocks/generateur_xp",
+    "south": "energia:blocks/generateur_xp",
+    "west": "energia:blocks/generateur_xp",
+    "particle": "energia:blocks/generateur_xp"
+  }
+}

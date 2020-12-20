@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "solar_panel_other",
+        "1": "haut",
+        "2": "solar_panel_down"
+      },
+      "name": "default"
+    }
+  }
+}

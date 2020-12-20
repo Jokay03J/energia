@@ -1,0 +1,75 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "result",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "result",
+          "x": 153,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "sapling selected:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "sapling selected:",
+          "x": 192,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "birch_sapling.png",
+          "use1Xscale": false,
+          "name": "birch_sapling.png",
+          "x": 276,
+          "y": 51
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 159,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy> / 2500",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<energy> / 2500",
+          "x": 197,
+          "y": 71
+        }
+      }
+    ]
+  }
+}

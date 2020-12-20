@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "energia:petrole",
+    "energia:petrole_flowing"
+  ]
+}

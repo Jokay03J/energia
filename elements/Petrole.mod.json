@@ -1,0 +1,21 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "Petrole",
+    "textureStill": "petrole_texture",
+    "textureFlowing": "bedrock_2",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Energia"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

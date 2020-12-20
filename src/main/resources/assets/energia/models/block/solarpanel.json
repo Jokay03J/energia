@@ -1,0 +1,10 @@
+{
+  "parent": "energia:custom/panneau_solaire_model",
+  "textures": {
+    "all": "energia:blocks/solar_panel_screenshot",
+    "particle": "energia:blocks/solar_panel_screenshot",
+    "0": "energia:blocks/solar_panel_other",
+    "1": "energia:blocks/haut",
+    "2": "energia:blocks/solar_panel_down"
+  }
+}

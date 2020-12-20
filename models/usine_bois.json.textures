@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "couleur_pot",
+        "1": "couleur_terre",
+        "2": "oak_log",
+        "3": "dark_oak_leaves"
+      },
+      "name": "default"
+    }
+  }
+}
